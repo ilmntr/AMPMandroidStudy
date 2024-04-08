@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+        android:id="@+id/fruit_image_1"
+        android:src="@drawable/img_1_apple"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+        <ImageView
+        android:id="@+id/fruit_image_2"
+        android:src="@drawable/img_2_banana"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+        <ImageView
+        android:id="@+id/fruit_image_3"
+        android:src="@drawable/img_3_carrot"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/fruit_image_4"
+            android:src="@drawable/img_4_potato"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <ImageView
+            android:id="@+id/fruit_image_5"
+            android:src="@drawable/img_5_watermelon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <ImageView
+            android:id="@+id/fruit_image_6"
+            android:src="@drawable/img_6_strawberry"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fruit_image_7"
+            android:src="@drawable/img_7_peach"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
